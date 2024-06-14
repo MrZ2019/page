@@ -1,0 +1,193 @@
+#objectTree .function {
+	font-weight: bold;
+}
+#uibox {
+	display: none;
+}
+
+.Right {
+	float: right;
+	width: 40%;
+	height: 420px;
+	position: relative;
+	right: 2%;
+}
+
+.Card {
+	z-index: 3;
+	position: absolute;
+	top: 0%;
+	
+	font-size: 20px;
+	font-family: impact;
+	color: white;
+	
+	border: none;
+}
+
+.Card li {
+	display: inline;
+	
+	margin: 0px;
+	background: silver;
+	
+	cursor: pointer;
+}
+
+.Card li:hover {
+	font-size: 150%;
+}
+
+.Card .Select {
+	font-size: 150%;
+}
+
+.Page {
+	z-index: 2;
+	display: none;
+	overflow: scroll;
+	
+	position: absolute;
+	left: 5%;
+	top: 10%;
+	width: 90%;
+	min-height: 80%;
+	
+	color: black;
+	font-family: arial;
+	font-size: 16px;
+	
+	padding: 8px;
+	background: ghostWhite;
+	
+	border: solid 1px gray;
+	border-radius: 8px;
+}
+
+.Page.Select {
+	display: block;
+}
+
+.Hacker ::-webkit-scrollbar {
+	background: dimgray;
+}
+
+.Hacker {
+	background-color: black;
+	
+	color: white;
+	font-size: 12px;
+}
+
+.Hacker h3 {
+	margin: 4px;
+	
+	color: gray;
+	font-family: impact;
+	font-weight: normal;
+	
+	text-align: center;
+}
+.Hacker div {
+	margin: 4px 1px 4px 1px;
+	padding: 4px;
+}
+
+.Hacker .Message {
+	overflow-y: scroll;
+	white-space: pre;
+	background: black;
+	float: left;
+	width: 50%;
+	left: 5%;
+	height: 420px;
+		
+	color: green;
+	font-size: 12px;
+	font-family: console;
+	border: 1px solid darkslategray;
+
+}
+
+
+
+.Remind {
+	position: fixed;
+	z-index: 7;
+	
+	width: 80%;
+	top: 4%;
+	left: 10%;
+	
+	background-color: olive;
+	border: 2px solid olive;
+	border-radius: 8px;
+	
+	color: white;
+	font-family: arial;
+	font-size: 20px;
+	text-align: center;
+}
+
+.Hacker .Code {
+	overflow-y: scroll;
+	overflow-x: hidden;
+	width: 100%;
+	height: 45%;
+	position: absolute;
+	top: 52%;
+	color: darkslateblue;
+	font-size: 14px;
+	
+	border: 1px solid darkslategray;
+}
+.Hacker .CodeBox {
+	z-index: 2;
+	position: absolute;
+	white-space: pre;
+	background: none;
+	
+	margin: 0px;
+	padding: 0px;
+	
+	line-height: 100%;
+	left: 10%;
+}
+
+.Hacker .CodeLine {
+	position: absolute;
+	z-index: 1;
+	float: left;
+	width: 100%;
+	
+	padding: 0px;
+	margin: 0px;
+	
+	font-size: 100%;
+	line-height: 20px;
+}
+
+.Hacker .CodeLine li {
+	width: 100%;
+	background: rgba(32,32,32,0.5);
+	
+	padding: 0px;
+	margin: 0px;
+	
+	line-height: 100%;
+}
+
+.Hacker .CodeLine li:hover {
+	opacity: 0.5;
+}
+
+.Hacker .Result {
+	float: left;
+	overflow-y: scroll;
+	white-space: pre;
+	height: 48%;
+	width: 100%;
+	
+	color: olive;
+	border: 1px solid darkslategray;
+}

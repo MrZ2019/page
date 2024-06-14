@@ -1,0 +1,65 @@
+@charset "utf-8";
+/* CSS Document */
+
+::-webkit-scrollbar {
+	width: 8px;
+	height: 8px;
+	background: white;
+}
+
+::-webkit-scrollbar-thumb {
+	background: gray;
+	border-radius: 4px;
+}
+
+.TextInput {
+	background: #FFF;
+	width: 192px;
+	padding: 2px;
+	
+	color: black;
+	font-size: 18px;
+	border: solid 1px gray;
+}
+
+.VISIBLE {
+	display: block;
+}
+
+.HIDE {
+	display: none;
+}
+
+#DESK {
+	display: none;
+	position: fixed;
+	top: 10%;
+	left: 5%;
+	width: 90%;
+	height: 80%;
+	
+	background-color: azure;
+	opacity: 0.9;
+	
+	}
+#DESK #DESK_VIEW {
+	
+}
+
+#DESK .NAV_VIEW{
+	display: none;
+	width: 98%;
+	height: 98%;
+	background-color: rgb(16,16,16);
+	
+	margin: 1%;
+	
+	color: white;
+}
+
+#EXECUTE_VIEW #Express_Input {
+}
+
+#DESK #TEST_VIEW {
+	background: white;
+}

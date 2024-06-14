@@ -1,0 +1,35 @@
+
+.Left, .Right {
+	padding: 1%;
+}
+
+/*	网页的左边	*/
+.Left 
+{
+	float: left;
+	width: 47%;
+	
+	border: solid gray 1px;
+}
+
+/*	网页的右边 */
+.Right
+{
+	float: right;
+	width: 47%;
+	
+	border: none gray 1px;
+}
+
+#styleEditer 
+{
+	white-space: pre;
+	
+	height: 128px;
+	padding: 4px;
+	
+	border: solid gray 1px;
+}
+
+
+

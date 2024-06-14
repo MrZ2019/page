@@ -1,0 +1,28 @@
+
+
+body {
+	min-height: 320px;
+}
+
+.debug {
+	word-break: break-word;
+}
+
+.frame {
+	position: absolute;
+	width: 320px;
+	height: 320px;
+	max-height: 480px;
+	padding: 8px;
+	border: 1px solid gray;
+	border-radius: 8px;
+	background: white;
+}
+
+.frame {
+	white-space: pre;
+	font-size: small;
+	color: gray;
+	word-break: all;
+	overflow-y: scroll;
+}

@@ -1,0 +1,26 @@
+@charset "utf-8";
+/* CSS Document */
+
+::-webkit-scrollbar {
+	width: 8px;
+	height: 8px;
+	background: white;
+}
+
+::-webkit-scrollbar-thumb {
+	background: gray;
+	border-radius: 4px;
+}
+
+.VISIBLE {
+	display: block;
+}
+
+.HIDE {
+	display: none;
+}
+
+.BOTTOM {
+	position: fixed;
+	bottom: 0%;	
+}

@@ -1,0 +1,11 @@
+@charset "utf-8";
+
+.TextInput {
+	background: #FFF;
+	width: 192px;
+	padding: 2px;
+	
+	color: black;
+	font-size: 18px;
+	border: solid 1px gray;
+}

@@ -1,0 +1,102 @@
+.BAR {
+	opacity: 1;
+	background-color: BLACK;
+	color: OLIVE;
+	padding-left: 4px;
+	padding-top: 4px;
+	padding-right: 4px;
+	padding-bottom: 4px;
+	text-align: left;
+	width: 100%;
+}
+.BAR .ITEM {
+	font-size: 24PX;
+	font-family: IMPACT;
+	margin-right: 16px;
+	border-right: 2px solid dimgray;
+	text-align: center;
+	display: inline-block;
+	width: 20%;
+}
+
+.BOTTOM {
+	position: fixed;
+	bottom: 0%;	
+}
+
+
+
+#MessageBAR {
+	padding: 4px;
+	color: purple;
+	text-align: center;
+	height: 6%;
+	line-height: normal;
+}#MessageBAR.error {
+	color: white;
+	background-color: red;
+}
+#MessageBAR.event {
+	color: teal;
+}
+
+.TitleBAR {
+	position: absolute;
+	top: 8px;
+	left: 8px;
+	display: inline-block;
+	min-width: 256px;
+	min-height: 24px;
+	background: silver;
+	border-style: solid solid none;
+	border-width: 1px;
+	border-color: gray;
+	border-radius: 4px 4px 0 0;
+	text-align: center;
+	line-height: 24px;
+	cursor: move;
+	font-weight: bold;
+}
+
+.BOX {
+	background-color: white;
+	display: inline-block;
+	overflow: scroll;
+	
+	position: absolute;
+	top: 32px;
+	left: 8px;
+	width: 256px;
+	height: 192px;	
+	
+	border-style: solid;
+	border-width: 1px;
+	border-color: gray;
+
+}
+
+#MessageBAR.notify {
+	
+	color: green;
+}
+
+#recordBOXTitle, #recordBOX {
+	z-index: 1;
+	width: 60%;
+	left: auto;
+	right: 8px;
+}
+
+#recordBOXTitle {
+	top: auto;
+	bottom: 224px;
+}
+
+#recordBOX {
+	top: auto;
+	bottom: 32px;
+}
+
+#recordBOX {
+	white-space: pre;
+}

@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+h1 {
+	margin: 0px;
+}
+
+#sometext {
+	margin-top: 64px;
+}
+
+#sometext > * {
+	min-height: 128px;
+}
+#adjust input {
+	width: 256px;
+	padding: 8px;
+	margin: 8px;
+	color: aqua;
+	font-size: medium;
+	border: 1px teal solid;
+	border-radius: 4px;
+}
+
+#rope {
+}

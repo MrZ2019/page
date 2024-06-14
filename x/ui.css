@@ -1,0 +1,127 @@
+@charset "utf-8";
+/* CSS Document */
+
+.border {
+	border-top: solid 1px gray;
+	border-right: solid 1px gray;
+	border-bottom: solid 1px gray;
+	border-left: solid 1px gray;
+}
+
+.radius {
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;
+}
+
+/*	ul 表示一个列表，列表项会向右偏移一些距离 */
+ul {
+	list-style: none;
+	padding-left: 16px;
+	
+	font-family: Times New Roman;
+	font-size: 18px;
+	color: dimgray;	
+	
+	border-left: solid 1px gray;
+}
+
+li {
+	line-height: 24px;
+}
+
+.Shade {
+	z-index: 2;
+	width: 80%;
+	height: 80%;
+	
+	position: absolute;
+	left: 10%;
+	padding: 16px;
+	
+	background-color: ghostWhite;
+	opacity: 0.9;
+}
+
+.Button, .TextInput {
+	display: inline-block;
+	
+	margin: 4px;
+}
+/*	按钮, 带着醒目的字体 impact */
+.Button {
+	padding: 4px;
+	
+	
+	font-family: impact;
+	font-size: 20px;
+
+	color: white;
+	background-color: gray;
+}
+
+.Button:hover {
+	background: silver;
+	
+	cursor: pointer;
+}
+
+/*	文本输入框 暗灰的边框和黑色的文字 */
+.TextInput {
+	padding: 4px;
+	
+	border: dimgray 1px solid;
+	outline: none;
+	
+	font-family: georgia;
+	font-size: 18px;
+	color: black;
+}
+
+.TextInput:focus {
+	border: black 1px solid;
+}
+
+.TreeView {
+	display: inline-block;
+	
+	font-size: 14px;
+	text-align: left;
+}
+
+.TreeView:hover {
+	border-color: silver;
+}
+
+.TreeView ul {
+	padding-left: 4px;
+	
+	font-weight: bold;
+	
+	cursor: pointer;
+}
+
+.TreeView ul:hover {
+	
+	color: silver;
+}
+
+.TreeView ul li:hover {
+	color: dimgray;
+}
+
+.TreeView ul li {
+	padding-left: 16px;
+
+	font-size: 14px;
+	font-weight: normal;
+	color: dimgray;
+	
+	cursor: auto;
+}
+
+.TreeView ul:hover {
+	border-color: silver;
+}
+

@@ -1,0 +1,200 @@
+/*	新的 样式表 */
+
+::-webkit-scrollbar {
+	width: 8px;
+	height: 8px;
+	background: white;
+}
+::-webkit-scrollbar-thumb {
+	background: gray;
+	border-radius: 8px;
+}
+::-webkit-scrollbar-thumb:hover {
+	background: silver;
+}
+
+/*	body 是整个页面 */
+body {
+	font-family: times New Roman;
+	font-style: normal;
+	font-size: small;
+	color: purple;
+	text-align: left;
+}
+
+/*	Wicket 是 Monitor 创建的 HTML对象 */
+input {
+	border: 1px solid silver;
+	padding: 4px;
+}
+
+.Wicket {
+	height: 480px;
+	width: 60%;
+	font-family: georgia;
+	font-size: larger;
+	text-align: center;
+	margin: auto;
+	padding: 1%;
+	position: absolute;
+	top: 10%;
+	left: 4%;
+	background-color: ghostwhite;
+	border-width: thin;
+}
+
+.Wicket .DisplayScreen {
+	background-color: white;
+	height: 50%;
+	min-height: 40%;
+	color: gray;
+	font-size: small;
+	text-align: left;
+	white-space: pre;
+	word-break: break-word;
+	padding: 6px;
+	overflow-y: scroll;
+	line-height: 32px;
+}
+.DisplayScreen b {
+	padding-right: 8px;
+}
+
+.DisplayScreen .ErrorMessage {
+	color: red;
+}
+
+.BuildMessage {
+	color: olive;
+}
+
+.EventMessage {
+	color: purple;
+}
+.Wicket .Watcher {
+	overflow: scroll;
+	max-height: 50%;
+	top: 0px;
+	left: 2%;
+	position: relative;
+	width: 96%;
+}
+.Wicket .Watcher caption {
+	top: 4px;
+	bottom: 4px;
+	
+	padding: 4px;
+}
+
+.WatcherTable {
+	font-size: small;
+	color: dimgray;
+	width: 100%;
+	
+	table-layout: fixed;
+	white-space: nowrap;
+}
+
+.WatcherTable td {
+	width: 33%;
+	height: 16px;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+
+td div.valueDIV {
+	height: 32px;
+}
+td.IsObject {
+	font-weight: bold;
+	font-style: italic;
+}
+
+.Wicket .Watcher tr th {
+	border-bottom: 1px silver solid;
+}
+
+.ObjectDisplayScreen {
+	
+	height: 320px;
+	
+	position: relative;
+	padding: 8px;
+	
+	background: azure;
+	
+	border: 1px solid dimgray;
+	
+	overflow-y: scroll;
+	word-break: break-word;
+	white-space: pre;
+	text-align: left;
+	visibility: hidden;
+	
+	
+	font-family: georgia;
+	font-size: small;
+}
+.CodeEvaluateInput {
+	width: 80%;
+}
+
+p.JavaScriptCode {
+	color: navy;
+}
+
+p.JavaScriptValue {
+	color: silver;
+	padding-left: 24px;
+	line-height: 24px;
+}
+#ExampleDocument {
+	position: absolute;
+	min-width: 240px;
+	min-height: 480px;
+	border: thin solid darkslateblue;
+	right: 24px;
+	z-index: 1;
+	opacity: 0.7;
+	padding-left: px;
+	padding-top: px;
+	padding-right: px;
+	padding-bottom: px;
+	font-size: 12px;
+	color: darkslategray;
+}
+#ExampleDocument:hover {
+	border-style: solid;
+	border-color: navy;
+	opacity: 1;
+}
+#ExampleDocument * {
+	margin-top: 4px;
+	margin-right: 4px;
+	margin-bottom: 4px;
+	margin-left: 4px;
+	border-style: solid;
+	border-width: 1px;
+	padding-top: 8px;
+	padding-right: 8px;
+	padding-bottom: 8px;
+	padding-left: 8px;
+}
+.Level1 {
+	border-style: solid;
+	border-color: hsl(240,100%,50%);
+	margin-left: 24px;
+	position: relative;
+	left: 24px;
+}
+.Level2 {
+	border-color: hsl(240,100%,60%);
+	left: 36px;
+	position: relative;
+}
+.Level3 {
+	position: relative;
+	left: 48px;
+	border-color: hsl(240,100%,70%);
+}
+

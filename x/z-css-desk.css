@@ -1,0 +1,44 @@
+@charset "utf-8";
+
+.POINTER {
+	cursor: pointer;
+}
+
+#DESK_NAV  {
+	list-style: none;
+	background-color: teal;
+	float: left;
+	
+	width: 20%;
+	min-width: 192px;
+	height: 100%;
+	
+	padding: 0px;
+	margin: 0px;
+	text-align: center;
+}
+
+#DESK_NAV li {
+	font-family: impact;
+
+	padding: 24px;
+	font-size: 24px;
+	color: azure;
+}
+
+#DESK_NAV li:hover {
+	
+	background: aqua;
+}
+
+#DESK_NAV li.Selected {
+	
+	background: aqua;
+}
+#DESK_VIEW {
+	background: black;
+	float: right;
+	
+	width: 79.8%;
+	height: 100%;
+}

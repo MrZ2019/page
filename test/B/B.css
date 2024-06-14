@@ -1,0 +1,103 @@
+button{
+	position: relative;
+	margin: 16px;
+	
+	font-size: large;
+	font-weight: bold;
+	opacity: 0.5;
+	background-color: teal;
+	color: white;
+	
+	border: none;
+}
+button:hover {
+	background-color: teal;
+	color: white;
+	font-weight: bold;
+	opacity: 0.7;
+	cursor: pointer;
+}
+
+#FileExplorer {
+	background-color: white;
+	margin-top: auto;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+	width: 75%;
+	border-top: 1px double dimgray;
+	border-bottom: 1px double dimgray;
+	border-right: 1px double dimgray;
+	border-left: 1px double dimgray;
+}
+#FileExplorer td {
+	width: 128px;
+	height: 128px;
+}
+#FileExplorer td:hover {
+	opacity: 0.75;
+}
+#FileExplorer td.Directory {
+	border-color: darkseagreen;
+	border-width: 1px;
+	background-color: azure;
+	cursor: pointer;
+}
+#FileExplorer td.File {
+	border-color: Coral;
+	border-width: 1px;
+}
+body {
+	background-color: ghostwhite;
+	text-align: center;
+	left: 0px;
+	white-space: normal !important;
+}
+
+#DirectoryPath {
+	margin: 32px;
+	color: gray;
+	font-size: x-large;
+	font-weight: bolder;
+	font-family: impact;
+}
+
+.debug {
+	opacity: 0.5;
+	z-index: 1;
+}
+
+#ContentContainer {
+	width: 100%;
+	height: 120%;
+	position: absolute;
+	top: 0px;
+	margin-left: auto;
+	margin-right: auto;
+		
+	visibility: hidden;
+	background: black;
+	opacity: 0.9;
+}
+#ContentContainer > * {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 16px;
+	margin-bottom: 16px;
+}
+#ContentViewer {
+	width: 80%;
+	border-style: solid;
+	border-color: darkslategray;
+	
+	min-height: 240px;
+	max-height: 420px;
+
+	padding: 32px;
+	
+	background-color: ghostwhite;
+	overflow-y: scroll;
+	
+	white-space: pre;
+	text-align: left;
+}

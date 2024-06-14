@@ -1,0 +1,39 @@
+
+#rope {
+	position: relative;
+	top: 0px;
+	width: 240px;
+	height: 24px;
+}
+
+#rope > * {
+	position: absolute;
+}
+
+#ropenum {
+	left: 85%;
+	color: silver;
+	line-height: 24px;
+}
+
+#ropeline {
+	width: 85%;
+	height: 1px;
+	top: 12px;
+	border-top: dashed 1px gray;
+}
+
+#ropespot {
+	width: 12px;
+	height: 12px;
+	top: 6px;
+	border: solid 1px silver;
+	border-radius: 6px;
+	background: silver;
+}
+
+#ropespot:hover {
+	border-color: gray;
+	background: gray;
+	cursor: pointer;
+}
